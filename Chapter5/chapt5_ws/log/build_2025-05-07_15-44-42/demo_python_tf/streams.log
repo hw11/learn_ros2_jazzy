@@ -1,0 +1,24 @@
+[0.385s] Invoking command in '/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_python_tf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_python_tf/build install --record /home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_python_tf/install.log --single-version-externally-managed install_data
+[0.530s] running egg_info
+[0.538s] writing ../../build/demo_python_tf/demo_python_tf.egg-info/PKG-INFO
+[0.538s] writing dependency_links to ../../build/demo_python_tf/demo_python_tf.egg-info/dependency_links.txt
+[0.538s] writing entry points to ../../build/demo_python_tf/demo_python_tf.egg-info/entry_points.txt
+[0.539s] writing requirements to ../../build/demo_python_tf/demo_python_tf.egg-info/requires.txt
+[0.539s] writing top-level names to ../../build/demo_python_tf/demo_python_tf.egg-info/top_level.txt
+[0.555s] reading manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[0.555s] adding license file 'LICENSE'
+[0.555s] writing manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[0.555s] running build
+[0.555s] running build_py
+[0.555s] running install
+[0.559s] running install_lib
+[0.567s] running install_data
+[0.567s] running install_egg_info
+[0.576s] removing '/home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages/demo_python_tf-0.0.0-py3.12.egg-info' (and everything under it)
+[0.576s] Copying ../../build/demo_python_tf/demo_python_tf.egg-info to /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages/demo_python_tf-0.0.0-py3.12.egg-info
+[0.577s] running install_scripts
+[0.635s] Installing dynamic_tf_broadcaster script to /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_python_tf/lib/demo_python_tf
+[0.635s] Installing static_tf_broadcaster script to /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_python_tf/lib/demo_python_tf
+[0.635s] Installing tf_listener script to /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_python_tf/lib/demo_python_tf
+[0.635s] writing list of installed files to '/home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_python_tf/install.log'
+[0.650s] Invoked command in '/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_python_tf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_python_tf/build install --record /home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_python_tf/install.log --single-version-externally-managed install_data

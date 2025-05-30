@@ -1,0 +1,50 @@
+[0.007s] Invoking command in '/home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_python_tf:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/cmake --build /home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_cpp_tf -- -j32 -l32
+[0.023s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.155s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.169s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.174s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.222s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.223s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.267s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.302s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.387s] -- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.389s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.389s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.392s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.446s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.446s] -- Configured cppcheck include dirs: 
+[0.446s] -- Configured cppcheck exclude dirs and/or files: 
+[0.446s] -- Added test 'lint_cmake' to check CMake code style
+[0.446s] -- Added test 'uncrustify' to check C / C++ code style
+[0.446s] -- Configured uncrustify additional arguments: 
+[0.446s] -- Added test 'xmllint' to check XML markup files
+[0.447s] -- Configuring done (0.4s)
+[0.456s] -- Generating done (0.0s)
+[0.459s] -- Build files have been written to: /home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_cpp_tf
+[0.490s] [ 25%] [32m[1mLinking CXX executable dynamic_tf_broadcaster[0m
+[0.490s] [ 75%] Built target static_tf_broadcaster
+[0.602s] [100%] Built target dynamic_tf_broadcaster
+[0.612s] Invoked command in '/home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_python_tf:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/cmake --build /home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_cpp_tf -- -j32 -l32
+[0.619s] Invoking command in '/home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_python_tf:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/cmake --install /home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_cpp_tf
+[0.625s] -- Install configuration: ""
+[0.625s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster
+[0.625s] -- Installing: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/dynamic_tf_broadcaster
+[0.626s] -- Set non-toolchain portion of runtime path of "/home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/dynamic_tf_broadcaster" to ""
+[0.626s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/package_run_dependencies/demo_cpp_tf
+[0.626s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/parent_prefix_path/demo_cpp_tf
+[0.626s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.sh
+[0.626s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.dsv
+[0.626s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.sh
+[0.626s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.dsv
+[0.626s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.bash
+[0.626s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.sh
+[0.626s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.zsh
+[0.626s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.dsv
+[0.626s] -- Installing: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.dsv
+[0.626s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/packages/demo_cpp_tf
+[0.627s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig.cmake
+[0.627s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig-version.cmake
+[0.627s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.xml
+[0.628s] Invoked command in '/home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_python_tf:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/cmake --install /home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_cpp_tf

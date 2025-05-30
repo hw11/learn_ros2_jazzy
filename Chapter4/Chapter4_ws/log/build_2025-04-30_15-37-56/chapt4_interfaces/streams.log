@@ -1,0 +1,32 @@
+[0.006s] Invoking command in '/home/honhe/learn_ros/Chapter4/Chapter4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/honhe/learn_ros/Chapter4/Chapter4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces
+[0.118s] -- The C compiler identification is GNU 13.3.0
+[0.217s] -- The CXX compiler identification is GNU 13.3.0
+[0.256s] -- Detecting C compiler ABI info
+[0.390s] -- Detecting C compiler ABI info - done
+[0.404s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.406s] -- Detecting C compile features
+[0.407s] -- Detecting C compile features - done
+[0.423s] -- Detecting CXX compiler ABI info
+[0.561s] -- Detecting CXX compiler ABI info - done
+[0.568s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.568s] -- Detecting CXX compile features
+[0.569s] -- Detecting CXX compile features - done
+[0.572s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.666s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.726s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.746s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.753s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.761s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.770s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.817s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.824s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.825s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.825s]   rosidl_generate_interfaces() the passed file 'srv/FaceDector.srv' doesn't
+[0.826s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.826s]   '/home/honhe/learn_ros/Chapter4/Chapter4_ws/src/chapt4_interfaces'
+[0.826s] Call Stack (most recent call first):
+[0.826s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.826s] 
+[0.826s] [0m
+[0.826s] -- Configuring incomplete, errors occurred!
+[0.830s] Invoked command in '/home/honhe/learn_ros/Chapter4/Chapter4_ws/build/chapt4_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/honhe/learn_ros/Chapter4/Chapter4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces

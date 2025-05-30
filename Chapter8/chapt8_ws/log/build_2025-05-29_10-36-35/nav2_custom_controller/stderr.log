@@ -1,0 +1,10 @@
+[01m[K/home/honhe/learn_ros/Chapter8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:[m[K In member function ‘[01m[Kdouble nav2_custom_controller::CustomController::[01;32m[KcalculateAngleDifference[m[K(const geometry_msgs::msg::PoseStamped&, const geometry_msgs::msg::PoseStamped&)[m[K’:
+[01m[K/home/honhe/learn_ros/Chapter8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:157:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble angle_diff[m[K’
+  157 |         double [01;31m[Kangle_diff[m[K = 0.0f;
+      |                [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/honhe/learn_ros/Chapter8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:148:16:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble angle_diff[m[K’ previously declared here
+  148 |         double [01;36m[Kangle_diff[m[K = target_angle - current_robot_yaw;
+      |                [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/nav2_custom_controller_plugin.dir/build.make:76: CMakeFiles/nav2_custom_controller_plugin.dir/src/custom_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_custom_controller_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

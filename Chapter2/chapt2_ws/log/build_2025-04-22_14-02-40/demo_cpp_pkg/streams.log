@@ -1,0 +1,30 @@
+[0.006s] Invoking command in '/home/honhe/learn_ros/Chapter2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/honhe/learn_ros/Chapter2/chapt2_ws/build/demo_cpp_pkg -- -j32 -l32
+[0.039s] [ 20%] Built target learn_auto
+[0.040s] [ 40%] Built target cpp_node
+[0.040s] [ 60%] Built target learn_shared_ptr
+[0.040s] [ 80%] Built target learn_lambda
+[0.041s] [100%] Built target person_node
+[0.050s] Invoked command in '/home/honhe/learn_ros/Chapter2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/honhe/learn_ros/Chapter2/chapt2_ws/build/demo_cpp_pkg -- -j32 -l32
+[0.057s] Invoking command in '/home/honhe/learn_ros/Chapter2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/honhe/learn_ros/Chapter2/chapt2_ws/build/demo_cpp_pkg
+[0.065s] -- Install configuration: ""
+[0.065s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[0.065s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[0.065s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_auto
+[0.066s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_shared_ptr
+[0.066s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_lambda
+[0.066s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[0.066s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[0.066s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[0.066s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[0.066s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[0.066s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[0.066s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[0.067s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[0.067s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[0.067s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[0.067s] -- Installing: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[0.067s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[0.067s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[0.067s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[0.067s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[0.069s] Invoked command in '/home/honhe/learn_ros/Chapter2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_python_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/honhe/learn_ros/Chapter2/chapt2_ws/build/demo_cpp_pkg

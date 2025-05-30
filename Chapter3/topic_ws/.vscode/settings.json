@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "/home/honhe/learn_ros/learn_ros_venv/bin/python3.12",
+    "python.analysis.extraPaths": [
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "cmake.configureSettings": {
+        "CMAKE_PREFIX_PATH": "/opt/ros/jazzy"
+    }
+}

@@ -1,0 +1,47 @@
+[0.007s] Invoking command in '/home/honhe/learn_ros/Chapter8/learn_pluginlib/build/motion_control_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/honhe/learn_ros/Chapter8/learn_pluginlib/build/motion_control_system -- -j32 -l32
+[0.027s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.210s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[0.219s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.219s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.279s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.279s] -- Configured cppcheck include dirs: /home/honhe/learn_ros/Chapter8/learn_pluginlib/src/motion_control_system/include
+[0.279s] -- Configured cppcheck exclude dirs and/or files: 
+[0.279s] -- Added test 'lint_cmake' to check CMake code style
+[0.279s] -- Added test 'uncrustify' to check C / C++ code style
+[0.279s] -- Configured uncrustify additional arguments: 
+[0.279s] -- Added test 'xmllint' to check XML markup files
+[0.279s] -- Configuring done (0.3s)
+[0.282s] -- Generating done (0.0s)
+[0.283s] -- Build files have been written to: /home/honhe/learn_ros/Chapter8/learn_pluginlib/build/motion_control_system
+[0.315s] [ 25%] [32mBuilding CXX object CMakeFiles/test_plugin.dir/src/test_plugin.cpp.o[0m
+[0.318s] [ 75%] Built target spin_motion_controller
+[1.746s] [100%] [32m[1mLinking CXX executable test_plugin[0m
+[1.814s] [100%] Built target test_plugin
+[1.821s] Invoked command in '/home/honhe/learn_ros/Chapter8/learn_pluginlib/build/motion_control_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/honhe/learn_ros/Chapter8/learn_pluginlib/build/motion_control_system -- -j32 -l32
+[1.833s] Invoking command in '/home/honhe/learn_ros/Chapter8/learn_pluginlib/build/motion_control_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/honhe/learn_ros/Chapter8/learn_pluginlib/build/motion_control_system
+[1.845s] -- Install configuration: ""
+[1.845s] -- Installing: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/lib/motion_control_system/test_plugin
+[1.846s] -- Set non-toolchain portion of runtime path of "/home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/lib/motion_control_system/test_plugin" to ""
+[1.846s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/lib/libspin_motion_controller.so
+[1.846s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/include/
+[1.847s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/include//motion_control_system
+[1.847s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/include//motion_control_system/spin_motion_controller.hpp
+[1.847s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/include//motion_control_system/motion_control_interface.hpp
+[1.847s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/share/motion_control_system/spin_motion_plugins.xml
+[1.847s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/share/ament_index/resource_index/package_run_dependencies/motion_control_system
+[1.847s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/share/ament_index/resource_index/parent_prefix_path/motion_control_system
+[1.848s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/share/motion_control_system/environment/ament_prefix_path.sh
+[1.848s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/share/motion_control_system/environment/ament_prefix_path.dsv
+[1.849s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/share/motion_control_system/environment/path.sh
+[1.849s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/share/motion_control_system/environment/path.dsv
+[1.849s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/share/motion_control_system/local_setup.bash
+[1.849s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/share/motion_control_system/local_setup.sh
+[1.849s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/share/motion_control_system/local_setup.zsh
+[1.849s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/share/motion_control_system/local_setup.dsv
+[1.850s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/share/motion_control_system/package.dsv
+[1.850s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/share/ament_index/resource_index/packages/motion_control_system
+[1.850s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/share/ament_index/resource_index/motion_control_system__pluginlib__plugin/motion_control_system
+[1.850s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/share/motion_control_system/cmake/motion_control_systemConfig.cmake
+[1.850s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/share/motion_control_system/cmake/motion_control_systemConfig-version.cmake
+[1.850s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/learn_pluginlib/install/motion_control_system/share/motion_control_system/package.xml
+[1.851s] Invoked command in '/home/honhe/learn_ros/Chapter8/learn_pluginlib/build/motion_control_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/honhe/learn_ros/Chapter8/learn_pluginlib/build/motion_control_system

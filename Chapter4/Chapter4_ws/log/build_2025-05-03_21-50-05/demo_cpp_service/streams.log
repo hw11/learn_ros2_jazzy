@@ -1,0 +1,64 @@
+[0.006s] Invoking command in '/home/honhe/learn_ros/Chapter4/Chapter4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/cmake /home/honhe/learn_ros/Chapter4/Chapter4_ws/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service
+[0.047s] -- The C compiler identification is GNU 13.3.0
+[0.084s] -- The CXX compiler identification is GNU 13.3.0
+[0.097s] -- Detecting C compiler ABI info
+[0.176s] -- Detecting C compiler ABI info - done
+[0.182s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.182s] -- Detecting C compile features
+[0.183s] -- Detecting C compile features - done
+[0.192s] -- Detecting CXX compiler ABI info
+[0.274s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.281s] -- Detecting CXX compile features
+[0.281s] -- Detecting CXX compile features - done
+[0.283s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.384s] -- Found Python3: /home/honhe/learn_ros/learn_ros_venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.449s] -- Found chapt4_interfaces: 0.0.0 (/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.470s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.477s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.496s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.563s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.590s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.592s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.650s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.669s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.686s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.735s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.771s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.829s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.829s] -- Configured cppcheck include dirs: 
+[0.829s] -- Configured cppcheck exclude dirs and/or files: 
+[0.829s] -- Added test 'lint_cmake' to check CMake code style
+[0.829s] -- Added test 'uncrustify' to check C / C++ code style
+[0.829s] -- Configured uncrustify additional arguments: 
+[0.829s] -- Added test 'xmllint' to check XML markup files
+[0.830s] -- Configuring done (0.8s)
+[0.837s] -- Generating done (0.0s)
+[0.839s] -- Build files have been written to: /home/honhe/learn_ros/Chapter4/Chapter4_ws/build/demo_cpp_service
+[0.846s] Invoked command in '/home/honhe/learn_ros/Chapter4/Chapter4_ws/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/cmake /home/honhe/learn_ros/Chapter4/Chapter4_ws/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service
+[0.846s] Invoking command in '/home/honhe/learn_ros/Chapter4/Chapter4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/cmake --build /home/honhe/learn_ros/Chapter4/Chapter4_ws/build/demo_cpp_service -- -j32 -l32
+[0.883s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_control.cpp.o[0m
+[5.129s] [100%] [32m[1mLinking CXX executable turtle_control[0m
+[5.324s] [100%] Built target turtle_control
+[5.333s] Invoked command in '/home/honhe/learn_ros/Chapter4/Chapter4_ws/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/cmake --build /home/honhe/learn_ros/Chapter4/Chapter4_ws/build/demo_cpp_service -- -j32 -l32
+[5.334s] Invoking command in '/home/honhe/learn_ros/Chapter4/Chapter4_ws/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/cmake --install /home/honhe/learn_ros/Chapter4/Chapter4_ws/build/demo_cpp_service
+[5.340s] -- Install configuration: ""
+[5.340s] -- Installing: /home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service/lib/demo_cpp_service/turtle_control
+[5.342s] -- Set non-toolchain portion of runtime path of "/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service/lib/demo_cpp_service/turtle_control" to ""
+[5.342s] -- Installing: /home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
+[5.343s] -- Installing: /home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
+[5.343s] -- Installing: /home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh
+[5.343s] -- Installing: /home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.dsv
+[5.343s] -- Installing: /home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.sh
+[5.343s] -- Installing: /home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service/share/demo_cpp_service/environment/path.dsv
+[5.343s] -- Installing: /home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.bash
+[5.343s] -- Installing: /home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.sh
+[5.343s] -- Installing: /home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.zsh
+[5.343s] -- Installing: /home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service/share/demo_cpp_service/local_setup.dsv
+[5.343s] -- Installing: /home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service/share/demo_cpp_service/package.dsv
+[5.343s] -- Installing: /home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service/share/ament_index/resource_index/packages/demo_cpp_service
+[5.343s] -- Installing: /home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig.cmake
+[5.343s] -- Installing: /home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig-version.cmake
+[5.344s] -- Installing: /home/honhe/learn_ros/Chapter4/Chapter4_ws/install/demo_cpp_service/share/demo_cpp_service/package.xml
+[5.345s] Invoked command in '/home/honhe/learn_ros/Chapter4/Chapter4_ws/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/cmake --install /home/honhe/learn_ros/Chapter4/Chapter4_ws/build/demo_cpp_service

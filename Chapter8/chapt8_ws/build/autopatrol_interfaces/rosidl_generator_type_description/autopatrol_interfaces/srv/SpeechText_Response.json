@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "autopatrol_interfaces/srv/SpeechText_Response",
+      "fields": [
+        {
+          "name": "result",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "autopatrol_interfaces/srv/SpeechText_Response",
+      "hash_string": "RIHS01_7f42fe5694b13b7dc6506e037d972ae7127c04a9b2035ac9bcec66893cc0cbee"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[0.009s] Invoking command in '/home/honhe/learn_ros/Chapter2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/honhe/learn_ros/Chapter2/chapt2_ws/build/demo_cpp_pkg -- -j32 -l32
+[0.068s] [ 20%] Built target learn_auto
+[0.069s] [ 30%] [32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o[0m
+[0.069s] [ 50%] Built target learn_shared_ptr
+[0.069s] [ 70%] Built target person_node
+[0.071s] [ 90%] Built target cpp_node
+[0.235s] [100%] [32m[1mLinking CXX executable learn_lambda[0m
+[0.285s] [100%] Built target learn_lambda
+[0.295s] Invoked command in '/home/honhe/learn_ros/Chapter2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/honhe/learn_ros/Chapter2/chapt2_ws/build/demo_cpp_pkg -- -j32 -l32
+[0.304s] Invoking command in '/home/honhe/learn_ros/Chapter2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/honhe/learn_ros/Chapter2/chapt2_ws/build/demo_cpp_pkg
+[0.311s] -- Install configuration: ""
+[0.312s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[0.313s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[0.313s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_auto
+[0.314s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_shared_ptr
+[0.314s] -- Installing: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_lambda
+[0.314s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[0.315s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[0.315s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[0.315s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[0.315s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[0.316s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[0.316s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[0.316s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[0.316s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[0.317s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[0.318s] -- Installing: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[0.318s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[0.318s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[0.318s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[0.318s] -- Up-to-date: /home/honhe/learn_ros/Chapter2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[0.318s] Invoked command in '/home/honhe/learn_ros/Chapter2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/honhe/learn_ros/Chapter2/chapt2_ws/build/demo_cpp_pkg

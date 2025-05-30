@@ -1,0 +1,26 @@
+[0.566s] Invoking command in '/home/honhe/learn_ros/Chapter7/chapt7_ws/src/autopatrol_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/honhe/learn_ros/Chapter7/chapt7_ws/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/honhe/learn_ros/Chapter7/chapt7_ws/install/autopatrol_robot/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/honhe/learn_ros/Chapter7/chapt7_ws/build/autopatrol_robot/build install --record /home/honhe/learn_ros/Chapter7/chapt7_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data
+[0.695s] running egg_info
+[0.703s] writing ../../build/autopatrol_robot/autopatrol_robot.egg-info/PKG-INFO
+[0.703s] writing dependency_links to ../../build/autopatrol_robot/autopatrol_robot.egg-info/dependency_links.txt
+[0.703s] writing entry points to ../../build/autopatrol_robot/autopatrol_robot.egg-info/entry_points.txt
+[0.703s] writing requirements to ../../build/autopatrol_robot/autopatrol_robot.egg-info/requires.txt
+[0.703s] writing top-level names to ../../build/autopatrol_robot/autopatrol_robot.egg-info/top_level.txt
+[0.721s] reading manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[0.721s] adding license file 'LICENSE'
+[0.721s] writing manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[0.722s] running build
+[0.722s] running build_py
+[0.722s] copying autopatrol_robot/speaker.py -> /home/honhe/learn_ros/Chapter7/chapt7_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+[0.722s] running install
+[0.726s] running install_lib
+[0.735s] copying /home/honhe/learn_ros/Chapter7/chapt7_ws/build/autopatrol_robot/build/lib/autopatrol_robot/speaker.py -> /home/honhe/learn_ros/Chapter7/chapt7_ws/install/autopatrol_robot/lib/python3.12/site-packages/autopatrol_robot
+[0.735s] byte-compiling /home/honhe/learn_ros/Chapter7/chapt7_ws/install/autopatrol_robot/lib/python3.12/site-packages/autopatrol_robot/speaker.py to speaker.cpython-312.pyc
+[0.735s] running install_data
+[0.735s] running install_egg_info
+[0.745s] removing '/home/honhe/learn_ros/Chapter7/chapt7_ws/install/autopatrol_robot/lib/python3.12/site-packages/autopatrol_robot-0.0.0-py3.12.egg-info' (and everything under it)
+[0.745s] Copying ../../build/autopatrol_robot/autopatrol_robot.egg-info to /home/honhe/learn_ros/Chapter7/chapt7_ws/install/autopatrol_robot/lib/python3.12/site-packages/autopatrol_robot-0.0.0-py3.12.egg-info
+[0.745s] running install_scripts
+[0.807s] Installing patrol_node script to /home/honhe/learn_ros/Chapter7/chapt7_ws/install/autopatrol_robot/lib/autopatrol_robot
+[0.807s] Installing speaker script to /home/honhe/learn_ros/Chapter7/chapt7_ws/install/autopatrol_robot/lib/autopatrol_robot
+[0.807s] writing list of installed files to '/home/honhe/learn_ros/Chapter7/chapt7_ws/build/autopatrol_robot/install.log'
+[0.823s] Invoked command in '/home/honhe/learn_ros/Chapter7/chapt7_ws/src/autopatrol_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/honhe/learn_ros/Chapter7/chapt7_ws/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/honhe/learn_ros/Chapter7/chapt7_ws/install/autopatrol_robot/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/honhe/learn_ros/Chapter7/chapt7_ws/build/autopatrol_robot/build install --record /home/honhe/learn_ros/Chapter7/chapt7_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,46 @@
+[0.654s] Invoking command in '/home/honhe/learn_ros/Chapter8/chapt8_ws/src/autopatrol_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/honhe/learn_ros/Chapter8/chapt8_ws/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/honhe/learn_ros/Chapter8/chapt8_ws/build/autopatrol_robot/build install --record /home/honhe/learn_ros/Chapter8/chapt8_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data
+[0.830s] running egg_info
+[0.830s] creating ../../build/autopatrol_robot/autopatrol_robot.egg-info
+[0.841s] writing ../../build/autopatrol_robot/autopatrol_robot.egg-info/PKG-INFO
+[0.841s] writing dependency_links to ../../build/autopatrol_robot/autopatrol_robot.egg-info/dependency_links.txt
+[0.841s] writing entry points to ../../build/autopatrol_robot/autopatrol_robot.egg-info/entry_points.txt
+[0.841s] writing requirements to ../../build/autopatrol_robot/autopatrol_robot.egg-info/requires.txt
+[0.841s] writing top-level names to ../../build/autopatrol_robot/autopatrol_robot.egg-info/top_level.txt
+[0.841s] writing manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[0.864s] reading manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[0.864s] adding license file 'LICENSE'
+[0.865s] writing manifest file '../../build/autopatrol_robot/autopatrol_robot.egg-info/SOURCES.txt'
+[0.865s] running build
+[0.865s] running build_py
+[0.865s] creating /home/honhe/learn_ros/Chapter8/chapt8_ws/build/autopatrol_robot/build
+[0.865s] creating /home/honhe/learn_ros/Chapter8/chapt8_ws/build/autopatrol_robot/build/lib
+[0.865s] creating /home/honhe/learn_ros/Chapter8/chapt8_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+[0.865s] copying autopatrol_robot/patrol_node.py -> /home/honhe/learn_ros/Chapter8/chapt8_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+[0.865s] copying autopatrol_robot/speaker.py -> /home/honhe/learn_ros/Chapter8/chapt8_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+[0.866s] copying autopatrol_robot/__init__.py -> /home/honhe/learn_ros/Chapter8/chapt8_ws/build/autopatrol_robot/build/lib/autopatrol_robot
+[0.866s] running install
+[0.871s] running install_lib
+[0.881s] creating /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/lib/python3.12/site-packages/autopatrol_robot
+[0.881s] copying /home/honhe/learn_ros/Chapter8/chapt8_ws/build/autopatrol_robot/build/lib/autopatrol_robot/patrol_node.py -> /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/lib/python3.12/site-packages/autopatrol_robot
+[0.881s] copying /home/honhe/learn_ros/Chapter8/chapt8_ws/build/autopatrol_robot/build/lib/autopatrol_robot/speaker.py -> /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/lib/python3.12/site-packages/autopatrol_robot
+[0.881s] copying /home/honhe/learn_ros/Chapter8/chapt8_ws/build/autopatrol_robot/build/lib/autopatrol_robot/__init__.py -> /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/lib/python3.12/site-packages/autopatrol_robot
+[0.881s] byte-compiling /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/lib/python3.12/site-packages/autopatrol_robot/patrol_node.py to patrol_node.cpython-312.pyc
+[0.882s] byte-compiling /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/lib/python3.12/site-packages/autopatrol_robot/speaker.py to speaker.cpython-312.pyc
+[0.882s] byte-compiling /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/lib/python3.12/site-packages/autopatrol_robot/__init__.py to __init__.cpython-312.pyc
+[0.882s] running install_data
+[0.882s] creating /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/share/ament_index
+[0.883s] creating /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/share/ament_index/resource_index
+[0.883s] creating /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/share/ament_index/resource_index/packages
+[0.883s] copying resource/autopatrol_robot -> /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/share/ament_index/resource_index/packages
+[0.883s] copying package.xml -> /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot
+[0.883s] creating /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/launch
+[0.883s] copying launch/autopatrol.launch.py -> /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/launch
+[0.883s] creating /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/config
+[0.883s] copying config/patrol_config.yaml -> /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/share/autopatrol_robot/config
+[0.883s] running install_egg_info
+[0.895s] Copying ../../build/autopatrol_robot/autopatrol_robot.egg-info to /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/lib/python3.12/site-packages/autopatrol_robot-0.0.0-py3.12.egg-info
+[0.895s] running install_scripts
+[0.971s] Installing patrol_node script to /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/lib/autopatrol_robot
+[0.971s] Installing speaker script to /home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/lib/autopatrol_robot
+[0.971s] writing list of installed files to '/home/honhe/learn_ros/Chapter8/chapt8_ws/build/autopatrol_robot/install.log'
+[0.988s] Invoked command in '/home/honhe/learn_ros/Chapter8/chapt8_ws/src/autopatrol_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/honhe/learn_ros/Chapter8/chapt8_ws/build/autopatrol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopatrol_robot build --build-base /home/honhe/learn_ros/Chapter8/chapt8_ws/build/autopatrol_robot/build install --record /home/honhe/learn_ros/Chapter8/chapt8_ws/build/autopatrol_robot/install.log --single-version-externally-managed install_data

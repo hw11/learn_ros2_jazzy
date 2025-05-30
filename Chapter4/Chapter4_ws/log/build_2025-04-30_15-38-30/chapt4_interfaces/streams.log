@@ -1,0 +1,22 @@
+[0.006s] Invoking command in '/home/honhe/learn_ros/Chapter4/Chapter4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/honhe/learn_ros/Chapter4/Chapter4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces
+[0.013s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.152s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.164s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.168s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.173s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.179s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.216s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.219s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.380s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:207 (add_custom_target):
+[0.380s]   The target name "&{PROJECT_NAME}" is reserved or not valid for certain
+[0.380s]   CMake features, such as generator expressions, and may result in undefined
+[0.380s]   behavior.
+[0.380s] Call Stack (most recent call first):
+[0.380s]   CMakeLists.txt:13 (rosidl_generate_interfaces)
+[0.380s] 
+[0.380s] [0m
+[0.381s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.445s] -- Added test 'lint_cmake' to check CMake code style
+[0.445s] -- Added test 'xmllint' to check XML markup files
+[0.446s] -- Configuring incomplete, errors occurred!
+[0.450s] Invoked command in '/home/honhe/learn_ros/Chapter4/Chapter4_ws/build/chapt4_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/honhe/learn_ros/Chapter4/Chapter4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/honhe/learn_ros/Chapter4/Chapter4_ws/install/chapt4_interfaces

@@ -1,0 +1,13 @@
+[0.246s] Invoking command in '/home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_controller -- -j32 -l32
+[0.316s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_controller_plugin.dir/src/custom_controller.cpp.o[0m
+[1.887s] [01m[K/home/honhe/learn_ros/Chapter8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:[m[K In member function ‘[01m[Kdouble nav2_custom_controller::CustomController::[01;32m[KcalculateAngleDifference[m[K(const geometry_msgs::msg::PoseStamped&, const geometry_msgs::msg::PoseStamped&)[m[K’:
+[1.887s] [01m[K/home/honhe/learn_ros/Chapter8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:157:16:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble angle_diff[m[K’
+[1.887s]   157 |         double [01;31m[Kangle_diff[m[K = 0.0f;
+[1.887s]       |                [01;31m[K^~~~~~~~~~[m[K
+[1.887s] [01m[K/home/honhe/learn_ros/Chapter8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:148:16:[m[K [01;36m[Knote: [m[K‘[01m[Kdouble angle_diff[m[K’ previously declared here
+[1.887s]   148 |         double [01;36m[Kangle_diff[m[K = target_angle - current_robot_yaw;
+[1.887s]       |                [01;36m[K^~~~~~~~~~[m[K
+[2.649s] gmake[2]: *** [CMakeFiles/nav2_custom_controller_plugin.dir/build.make:76: CMakeFiles/nav2_custom_controller_plugin.dir/src/custom_controller.cpp.o] Error 1
+[2.649s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_custom_controller_plugin.dir/all] Error 2
+[2.649s] gmake: *** [Makefile:146: all] Error 2
+[2.652s] Invoked command in '/home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_controller -- -j32 -l32

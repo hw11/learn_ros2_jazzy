@@ -1,0 +1,50 @@
+[0.352s] Invoking command in '/home/honhe/learn_ros/Chapter2/chapt2_ws/src/demo_python_pkg': AMENT_PREFIX_PATH=/home/honhe/learn_ros/Chapter2/install/demo_cpp_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/honhe/learn_ros/Chapter2/install/demo_cpp_pkg:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/honhe/learn_ros/Chapter2/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/demo_python_pkg build --build-base /home/honhe/learn_ros/Chapter2/build/demo_python_pkg/build install --record /home/honhe/learn_ros/Chapter2/build/demo_python_pkg/install.log --single-version-externally-managed install_data
+[0.461s] running egg_info
+[0.461s] creating ../../../build/demo_python_pkg/demo_python_pkg.egg-info
+[0.468s] writing ../../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[0.468s] writing dependency_links to ../../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[0.468s] writing entry points to ../../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[0.468s] writing requirements to ../../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[0.468s] writing top-level names to ../../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[0.469s] writing manifest file '../../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.483s] reading manifest file '../../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.483s] adding license file 'LICENSE'
+[0.483s] writing manifest file '../../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[0.483s] running build
+[0.484s] running build_py
+[0.484s] creating /home/honhe/learn_ros/Chapter2/build/demo_python_pkg/build
+[0.484s] creating /home/honhe/learn_ros/Chapter2/build/demo_python_pkg/build/lib
+[0.484s] creating /home/honhe/learn_ros/Chapter2/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.484s] copying demo_python_pkg/python_node.py -> /home/honhe/learn_ros/Chapter2/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.484s] copying demo_python_pkg/learn_thread.py -> /home/honhe/learn_ros/Chapter2/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.484s] copying demo_python_pkg/person_node.py -> /home/honhe/learn_ros/Chapter2/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.484s] copying demo_python_pkg/__init__.py -> /home/honhe/learn_ros/Chapter2/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.484s] copying demo_python_pkg/writer_node.py -> /home/honhe/learn_ros/Chapter2/build/demo_python_pkg/build/lib/demo_python_pkg
+[0.484s] running install
+[0.487s] running install_lib
+[0.495s] creating /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg
+[0.495s] copying /home/honhe/learn_ros/Chapter2/build/demo_python_pkg/build/lib/demo_python_pkg/python_node.py -> /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg
+[0.495s] copying /home/honhe/learn_ros/Chapter2/build/demo_python_pkg/build/lib/demo_python_pkg/learn_thread.py -> /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg
+[0.495s] copying /home/honhe/learn_ros/Chapter2/build/demo_python_pkg/build/lib/demo_python_pkg/person_node.py -> /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg
+[0.495s] copying /home/honhe/learn_ros/Chapter2/build/demo_python_pkg/build/lib/demo_python_pkg/__init__.py -> /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg
+[0.495s] copying /home/honhe/learn_ros/Chapter2/build/demo_python_pkg/build/lib/demo_python_pkg/writer_node.py -> /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg
+[0.495s] byte-compiling /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg/python_node.py to python_node.cpython-312.pyc
+[0.495s] byte-compiling /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg/learn_thread.py to learn_thread.cpython-312.pyc
+[0.496s] byte-compiling /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg/person_node.py to person_node.cpython-312.pyc
+[0.496s] byte-compiling /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg/__init__.py to __init__.cpython-312.pyc
+[0.496s] byte-compiling /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg/writer_node.py to writer_node.cpython-312.pyc
+[0.496s] running install_data
+[0.496s] creating /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/share/ament_index
+[0.496s] creating /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/share/ament_index/resource_index
+[0.496s] creating /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/share/ament_index/resource_index/packages
+[0.496s] copying resource/demo_python_pkg -> /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/share/ament_index/resource_index/packages
+[0.496s] copying package.xml -> /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/share/demo_python_pkg
+[0.496s] running install_egg_info
+[0.504s] Copying ../../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg-0.0.0-py3.12.egg-info
+[0.504s] running install_scripts
+[0.558s] Installing learn_thread script to /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/demo_python_pkg
+[0.558s] Installing person_node script to /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/demo_python_pkg
+[0.558s] Installing python_node script to /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/demo_python_pkg
+[0.559s] Installing writer_node script to /home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/demo_python_pkg
+[0.559s] writing list of installed files to '/home/honhe/learn_ros/Chapter2/build/demo_python_pkg/install.log'
+[0.573s] Invoked command in '/home/honhe/learn_ros/Chapter2/chapt2_ws/src/demo_python_pkg' returned '0': AMENT_PREFIX_PATH=/home/honhe/learn_ros/Chapter2/install/demo_cpp_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/honhe/learn_ros/Chapter2/install/demo_cpp_pkg:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/honhe/learn_ros/Chapter2/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/honhe/learn_ros/Chapter2/install/demo_python_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/demo_python_pkg build --build-base /home/honhe/learn_ros/Chapter2/build/demo_python_pkg/build install --record /home/honhe/learn_ros/Chapter2/build/demo_python_pkg/install.log --single-version-externally-managed install_data

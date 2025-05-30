@@ -1,0 +1,32 @@
+[0.007s] Invoking command in '/home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_python_tf:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/cmake --build /home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_cpp_tf -- -j32 -l32
+[0.052s] [ 33%] Built target static_tf_broadcaster
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamic_tf_broadcaster.dir/src/dynamic_tf_broadcaster.cpp.o[0m
+[0.056s] [ 66%] [32mBuilding CXX object CMakeFiles/tf_listener.dir/src/tf_listener.cpp.o[0m
+[2.270s] [ 83%] [32m[1mLinking CXX executable dynamic_tf_broadcaster[0m
+[2.376s] [ 83%] Built target dynamic_tf_broadcaster
+[4.334s] [100%] [32m[1mLinking CXX executable tf_listener[0m
+[4.504s] [100%] Built target tf_listener
+[4.512s] Invoked command in '/home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_python_tf:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/cmake --build /home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_cpp_tf -- -j32 -l32
+[4.518s] Invoking command in '/home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_cpp_tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_python_tf:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/cmake --install /home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_cpp_tf
+[4.527s] -- Install configuration: ""
+[4.527s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/static_tf_broadcaster
+[4.527s] -- Installing: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/dynamic_tf_broadcaster
+[4.528s] -- Set non-toolchain portion of runtime path of "/home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/dynamic_tf_broadcaster" to ""
+[4.529s] -- Installing: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/tf_listener
+[4.533s] -- Set non-toolchain portion of runtime path of "/home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/lib/demo_cpp_tf/tf_listener" to ""
+[4.533s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/package_run_dependencies/demo_cpp_tf
+[4.533s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/parent_prefix_path/demo_cpp_tf
+[4.533s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.sh
+[4.533s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/ament_prefix_path.dsv
+[4.533s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.sh
+[4.533s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/environment/path.dsv
+[4.533s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.bash
+[4.533s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.sh
+[4.533s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.zsh
+[4.533s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/local_setup.dsv
+[4.533s] -- Installing: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.dsv
+[4.533s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/ament_index/resource_index/packages/demo_cpp_tf
+[4.533s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig.cmake
+[4.533s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/cmake/demo_cpp_tfConfig-version.cmake
+[4.533s] -- Up-to-date: /home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_cpp_tf/share/demo_cpp_tf/package.xml
+[4.535s] Invoked command in '/home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_cpp_tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter5/chapt5_ws/install/demo_python_tf:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(learn_ros_venv) /usr/bin/cmake --install /home/honhe/learn_ros/Chapter5/chapt5_ws/build/demo_cpp_tf

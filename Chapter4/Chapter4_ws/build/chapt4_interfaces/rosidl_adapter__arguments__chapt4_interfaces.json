@@ -1,0 +1,7 @@
+{
+  "package_name": "chapt4_interfaces",
+  "non_idl_tuples": [
+    "/home/honhe/learn_ros/Chapter4/Chapter4_ws/src/chapt4_interfaces:srv/FaceDetector.srv",
+    "/home/honhe/learn_ros/Chapter4/Chapter4_ws/src/chapt4_interfaces:srv/Patrol.srv"
+  ]
+}

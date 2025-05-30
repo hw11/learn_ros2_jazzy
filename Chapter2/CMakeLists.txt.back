@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.8)
+project(ros2_cpp)
+add_executable(ros2_cpp_node ros2_cpp_node.cpp)
+
+find_package(rclcpp REQUIRED) # directly find corresponding head and library files
+message(STATUS ${rclcpp_INCLUDE_DIRS}) # head files and those of rclcpp dependencies
+message(STATUS ${rclcpp_LIBRARIES}) # library files and those of rclcpp dependencies
+
+target_include_directories(ros2_cpp_node PUBLIC ${rclcpp_INCLUDE_DIRS}) # include head files
+target_link_libraries(ros2_cpp_node ${rclcpp_LIBRARIES}) # link libraries

@@ -1,0 +1,6 @@
+{
+  "package_name": "autopatrol_interfaces",
+  "non_idl_tuples": [
+    "/home/honhe/learn_ros/Chapter8/chapt8_ws/src/autopatrol_interfaces:srv/SpeechText.srv"
+  ]
+}

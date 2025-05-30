@@ -1,0 +1,87 @@
+[0.247s] Invoking command in '/home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/honhe/learn_ros/Chapter8/chapt8_ws/src/nav2_custom_controller -DCMAKE_INSTALL_PREFIX=/home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller
+[0.283s] -- The C compiler identification is GNU 13.3.0
+[0.327s] -- The CXX compiler identification is GNU 13.3.0
+[0.343s] -- Detecting C compiler ABI info
+[0.419s] -- Detecting C compiler ABI info - done
+[0.426s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.426s] -- Detecting C compile features
+[0.426s] -- Detecting C compile features - done
+[0.434s] -- Detecting CXX compiler ABI info
+[0.512s] -- Detecting CXX compiler ABI info - done
+[0.519s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.519s] -- Detecting CXX compile features
+[0.519s] -- Detecting CXX compile features - done
+[0.523s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.642s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.733s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[0.758s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.761s] -- Found nav2_core: 1.3.6 (/opt/ros/jazzy/share/nav2_core/cmake)
+[0.787s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.797s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.809s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.819s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.880s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.883s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.901s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.981s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.987s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.018s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.023s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.034s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.056s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.322s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.323s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.323s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.439s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.513s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.513s] -- Configured cppcheck include dirs: /home/honhe/learn_ros/Chapter8/chapt8_ws/src/nav2_custom_controller/include
+[1.513s] -- Configured cppcheck exclude dirs and/or files: 
+[1.513s] -- Added test 'lint_cmake' to check CMake code style
+[1.514s] -- Added test 'uncrustify' to check C / C++ code style
+[1.514s] -- Configured uncrustify additional arguments: 
+[1.514s] -- Added test 'xmllint' to check XML markup files
+[1.515s] -- Configuring done (1.3s)
+[1.539s] -- Generating done (0.0s)
+[1.542s] -- Build files have been written to: /home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_controller
+[1.549s] Invoked command in '/home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/honhe/learn_ros/Chapter8/chapt8_ws/src/nav2_custom_controller -DCMAKE_INSTALL_PREFIX=/home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller
+[1.549s] Invoking command in '/home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_controller -- -j32 -l32
+[1.614s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_controller_plugin.dir/src/custom_controller.cpp.o[0m
+[3.113s] [01m[K/home/honhe/learn_ros/Chapter8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:[m[K In member function ‘[01m[Kvirtual geometry_msgs::msg::TwistStamped nav2_custom_controller::CustomController::[01;32m[KcomputeVelocityCommands[m[K(const geometry_msgs::msg::PoseStamped&, const geometry_msgs::msg::Twist&, nav2_core::GoalChecker*)[m[K’:
+[3.113s] [01m[K/home/honhe/learn_ros/Chapter8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:50:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.113s]    50 |     [01;35m[Kconst geometry_msgs::msg::PoseStamped &pose[m[K,
+[3.113s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.113s] [01m[K/home/honhe/learn_ros/Chapter8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:[m[K In member function ‘[01m[Kdouble nav2_custom_controller::CustomController::[01;32m[KcalculateAngleDifference[m[K(const geometry_msgs::msg::PoseStamped&, const geometry_msgs::msg::PoseStamped&)[m[K’:
+[3.113s] [01m[K/home/honhe/learn_ros/Chapter8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:121:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.113s]   121 |     [01;35m[Kconst geometry_msgs::msg::PoseStamped &current_pose[m[K,
+[3.114s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[3.114s] [01m[K/home/honhe/learn_ros/Chapter8/chapt8_ws/src/nav2_custom_controller/src/custom_controller.cpp:122:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktarget_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.114s]   122 |     [01;35m[Kconst geometry_msgs::msg::PoseStamped &target_pose[m[K) {
+[3.114s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[4.023s] [100%] [32m[1mLinking CXX shared library libnav2_custom_controller_plugin.so[0m
+[4.170s] [100%] Built target nav2_custom_controller_plugin
+[4.177s] Invoked command in '/home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_controller -- -j32 -l32
+[4.178s] Invoking command in '/home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_controller
+[4.183s] -- Install configuration: ""
+[4.183s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/lib/libnav2_custom_controller_plugin.so
+[4.183s] -- Set non-toolchain portion of runtime path of "/home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/lib/libnav2_custom_controller_plugin.so" to ""
+[4.183s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/include/
+[4.183s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/include//nav2_custom_controller
+[4.183s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/include//nav2_custom_controller/custom_controller.hpp
+[4.183s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/nav2_custom_controller.xml
+[4.183s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/share/ament_index/resource_index/package_run_dependencies/nav2_custom_controller
+[4.184s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/share/ament_index/resource_index/parent_prefix_path/nav2_custom_controller
+[4.184s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/ament_prefix_path.sh
+[4.184s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/ament_prefix_path.dsv
+[4.184s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/path.sh
+[4.184s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/environment/path.dsv
+[4.184s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.bash
+[4.184s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.sh
+[4.184s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.zsh
+[4.184s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/local_setup.dsv
+[4.185s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.dsv
+[4.185s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/share/ament_index/resource_index/packages/nav2_custom_controller
+[4.185s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_custom_controller
+[4.185s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/cmake/nav2_custom_controllerConfig.cmake
+[4.185s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/cmake/nav2_custom_controllerConfig-version.cmake
+[4.185s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_controller/share/nav2_custom_controller/package.xml
+[4.186s] Invoked command in '/home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/autopatrol_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_controller

@@ -1,0 +1,30 @@
+[0.236s] Invoking command in '/home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_planner -- -j32 -l32
+[0.295s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/nav2_custom_planner.cpp.o[0m
+[2.802s] [100%] [32m[1mLinking CXX shared library libnav2_custom_planner_plugin.so[0m
+[2.979s] [100%] Built target nav2_custom_planner_plugin
+[2.988s] Invoked command in '/home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_planner -- -j32 -l32
+[2.989s] Invoking command in '/home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_planner
+[2.996s] -- Install configuration: ""
+[2.997s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so
+[2.997s] -- Set non-toolchain portion of runtime path of "/home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so" to ""
+[2.997s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/include/
+[2.997s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/include//nav2_custom_planner
+[2.997s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/include//nav2_custom_planner/nav2_custom_planner.hpp
+[2.997s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/custom_planner_plugin.xml
+[2.997s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/share/ament_index/resource_index/package_run_dependencies/nav2_custom_planner
+[2.997s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/share/ament_index/resource_index/parent_prefix_path/nav2_custom_planner
+[2.997s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.sh
+[2.997s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.dsv
+[2.997s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.sh
+[2.998s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.dsv
+[2.998s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.bash
+[2.998s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.sh
+[2.998s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.zsh
+[2.998s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.dsv
+[2.998s] -- Installing: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv
+[2.998s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/share/ament_index/resource_index/packages/nav2_custom_planner
+[2.998s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_custom_planner
+[2.998s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig.cmake
+[2.998s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig-version.cmake
+[2.998s] -- Up-to-date: /home/honhe/learn_ros/Chapter8/chapt8_ws/install/nav2_custom_planner/share/nav2_custom_planner/package.xml
+[2.999s] Invoked command in '/home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/honhe/learn_ros/Chapter8/chapt8_ws/build/nav2_custom_planner

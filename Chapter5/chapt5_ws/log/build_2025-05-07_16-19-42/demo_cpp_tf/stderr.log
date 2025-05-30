@@ -1,0 +1,40 @@
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:64:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   64 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:12:40:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   12 | class TFListener : public rclcpp::Node [01;36m[K{[m[K
+      |                                        [01;36m[K^[m[K
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:[m[K In constructor ‘[01m[KTFListener::[01;32m[KTFListener[m[K()[m[K’:
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer_[m[K’ was not declared in this scope
+   16 |     [01;31m[Kbuffer_[m[K = std::make_shared<tf2_ros::Buffer>(this->get_clock());
+      |     [01;31m[K^~~~~~~[m[K
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:17:5:[m[K [01;31m[Kerror: [m[K‘[01m[Klistener_[m[K’ was not declared in this scope
+   17 |     [01;31m[Klistener_[m[K = std::make_shared<tf2_ros::TransformListener>(*buffer_,this);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   18 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(100ms,std::bind(&TFListener::getTransform,this));
+      |     [01;31m[K^~~~~~[m[K
+      |     [32m[Ktimer_t[m[K
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:[m[K In member function ‘[01m[Kvoid TFListener::[01;32m[KgetTransform[m[K()[m[K’:
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:24:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kbuffer_[m[K’ was not declared in this scope
+   24 |         const auto transform = [01;31m[Kbuffer_[m[K->lookupTransform("base_link","target_point",
+      |                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:34:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kcatch[m[K’
+   34 |     [01;31m[Kcatch[m[K(const std::exception& e){
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:52:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[Kcatch[m[K’ before ‘[01m[K:[m[K’ token
+   52 |  private[01;31m[K:[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:52:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K:[m[K’ token
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:52:9:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[K:[m[K’ token
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:52:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K:[m[K’ token
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:52:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:52:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K:[m[K’ token
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:52:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:[m[K At global scope:
+[01m[K/home/honhe/learn_ros/Chapter5/chapt5_ws/src/demo_cpp_tf/src/tf_listener.cpp:64:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   64 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/tf_listener.dir/build.make:76: CMakeFiles/tf_listener.dir/src/tf_listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/tf_listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

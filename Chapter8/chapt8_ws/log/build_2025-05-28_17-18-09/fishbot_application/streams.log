@@ -1,0 +1,50 @@
+[0.653s] Invoking command in '/home/honhe/learn_ros/Chapter8/chapt8_ws/src/fishbot_application': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/build install --record /home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/install.log --single-version-externally-managed install_data
+[0.814s] running egg_info
+[0.814s] creating ../../build/fishbot_application/fishbot_application.egg-info
+[0.825s] writing ../../build/fishbot_application/fishbot_application.egg-info/PKG-INFO
+[0.825s] writing dependency_links to ../../build/fishbot_application/fishbot_application.egg-info/dependency_links.txt
+[0.826s] writing entry points to ../../build/fishbot_application/fishbot_application.egg-info/entry_points.txt
+[0.826s] writing requirements to ../../build/fishbot_application/fishbot_application.egg-info/requires.txt
+[0.826s] writing top-level names to ../../build/fishbot_application/fishbot_application.egg-info/top_level.txt
+[0.826s] writing manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[0.849s] reading manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[0.849s] adding license file 'LICENSE'
+[0.849s] writing manifest file '../../build/fishbot_application/fishbot_application.egg-info/SOURCES.txt'
+[0.849s] running build
+[0.849s] running build_py
+[0.850s] creating /home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/build
+[0.850s] creating /home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/build/lib
+[0.850s] creating /home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/build/lib/fishbot_application
+[0.850s] copying fishbot_application/init_pose.py -> /home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/build/lib/fishbot_application
+[0.850s] copying fishbot_application/waypoint_follow.py -> /home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/build/lib/fishbot_application
+[0.850s] copying fishbot_application/get_robot_pose.py -> /home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/build/lib/fishbot_application
+[0.850s] copying fishbot_application/__init__.py -> /home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/build/lib/fishbot_application
+[0.850s] copying fishbot_application/nav_to_pose.py -> /home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/build/lib/fishbot_application
+[0.850s] running install
+[0.854s] running install_lib
+[0.865s] creating /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/python3.12/site-packages/fishbot_application
+[0.866s] copying /home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/build/lib/fishbot_application/init_pose.py -> /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/python3.12/site-packages/fishbot_application
+[0.866s] copying /home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/build/lib/fishbot_application/waypoint_follow.py -> /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/python3.12/site-packages/fishbot_application
+[0.866s] copying /home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/build/lib/fishbot_application/get_robot_pose.py -> /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/python3.12/site-packages/fishbot_application
+[0.866s] copying /home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/build/lib/fishbot_application/__init__.py -> /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/python3.12/site-packages/fishbot_application
+[0.866s] copying /home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/build/lib/fishbot_application/nav_to_pose.py -> /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/python3.12/site-packages/fishbot_application
+[0.867s] byte-compiling /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/python3.12/site-packages/fishbot_application/init_pose.py to init_pose.cpython-312.pyc
+[0.867s] byte-compiling /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/python3.12/site-packages/fishbot_application/waypoint_follow.py to waypoint_follow.cpython-312.pyc
+[0.867s] byte-compiling /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/python3.12/site-packages/fishbot_application/get_robot_pose.py to get_robot_pose.cpython-312.pyc
+[0.867s] byte-compiling /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/python3.12/site-packages/fishbot_application/__init__.py to __init__.cpython-312.pyc
+[0.867s] byte-compiling /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/python3.12/site-packages/fishbot_application/nav_to_pose.py to nav_to_pose.cpython-312.pyc
+[0.868s] running install_data
+[0.868s] creating /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/share/ament_index
+[0.868s] creating /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/share/ament_index/resource_index
+[0.868s] creating /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/share/ament_index/resource_index/packages
+[0.868s] copying resource/fishbot_application -> /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/share/ament_index/resource_index/packages
+[0.868s] copying package.xml -> /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/share/fishbot_application
+[0.868s] running install_egg_info
+[0.879s] Copying ../../build/fishbot_application/fishbot_application.egg-info to /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/python3.12/site-packages/fishbot_application-0.0.0-py3.12.egg-info
+[0.879s] running install_scripts
+[0.955s] Installing fishbot_get_pose script to /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/fishbot_application
+[0.955s] Installing fishbot_init_pose script to /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/fishbot_application
+[0.955s] Installing nav_to_pose script to /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/fishbot_application
+[0.955s] Installing waypoint_follower script to /home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/fishbot_application
+[0.955s] writing list of installed files to '/home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/install.log'
+[0.972s] Invoked command in '/home/honhe/learn_ros/Chapter8/chapt8_ws/src/fishbot_application' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/honhe/learn_ros/Chapter8/chapt8_ws/install/fishbot_application/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fishbot_application build --build-base /home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/build install --record /home/honhe/learn_ros/Chapter8/chapt8_ws/build/fishbot_application/install.log --single-version-externally-managed install_data
